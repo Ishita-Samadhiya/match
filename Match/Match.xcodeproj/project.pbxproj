@@ -11,6 +11,8 @@
 		338E8C832BA0C190005166F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E8C822BA0C190005166F9 /* ContentView.swift */; };
 		338E8C852BA0C192005166F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338E8C842BA0C192005166F9 /* Assets.xcassets */; };
 		338E8C882BA0C192005166F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338E8C872BA0C192005166F9 /* Preview Assets.xcassets */; };
+		33ACFBF42BA9EBD5006DCC7B /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33ACFBF22BA9EBD5006DCC7B /* Silkscreen-Bold.ttf */; };
+		33ACFBF52BA9EBD5006DCC7B /* Silkscreen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33ACFBF32BA9EBD5006DCC7B /* Silkscreen-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		338E8C822BA0C190005166F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		338E8C842BA0C192005166F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338E8C872BA0C192005166F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33ACFBF22BA9EBD5006DCC7B /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
+		33ACFBF32BA9EBD5006DCC7B /* Silkscreen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Silkscreen-Regular.ttf"; sourceTree = "<group>"; };
+		33ACFBF62BA9EC7E006DCC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		338E8C7F2BA0C190005166F9 /* Match */ = {
 			isa = PBXGroup;
 			children = (
+				33ACFBF62BA9EC7E006DCC7B /* Info.plist */,
 				338E8C802BA0C190005166F9 /* MatchApp.swift */,
 				338E8C822BA0C190005166F9 /* ContentView.swift */,
+				33ACFBF22BA9EBD5006DCC7B /* Silkscreen-Bold.ttf */,
+				33ACFBF32BA9EBD5006DCC7B /* Silkscreen-Regular.ttf */,
 				338E8C842BA0C192005166F9 /* Assets.xcassets */,
 				338E8C862BA0C192005166F9 /* Preview Content */,
 			);
@@ -125,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ACFBF52BA9EBD5006DCC7B /* Silkscreen-Regular.ttf in Resources */,
 				338E8C882BA0C192005166F9 /* Preview Assets.xcassets in Resources */,
+				33ACFBF42BA9EBD5006DCC7B /* Silkscreen-Bold.ttf in Resources */,
 				338E8C852BA0C192005166F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +284,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Match/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Match/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +313,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Match/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Match/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
