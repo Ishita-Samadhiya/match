@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335A4A882BAB3F44001AD109 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A4A872BAB3F44001AD109 /* GameView.swift */; };
+		335A4A8A2BAB49DE001AD109 /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A4A892BAB49DE001AD109 /* WinView.swift */; };
+		335A4A8C2BAB4C99001AD109 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A4A8B2BAB4C99001AD109 /* CardView.swift */; };
 		338E8C812BA0C190005166F9 /* MatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E8C802BA0C190005166F9 /* MatchApp.swift */; };
 		338E8C832BA0C190005166F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E8C822BA0C190005166F9 /* ContentView.swift */; };
 		338E8C852BA0C192005166F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338E8C842BA0C192005166F9 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		335A4A872BAB3F44001AD109 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		335A4A892BAB49DE001AD109 /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		335A4A8B2BAB4C99001AD109 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		338E8C7D2BA0C190005166F9 /* Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Match.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338E8C802BA0C190005166F9 /* MatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchApp.swift; sourceTree = "<group>"; };
 		338E8C822BA0C190005166F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,10 +64,13 @@
 			children = (
 				33ACFBF62BA9EC7E006DCC7B /* Info.plist */,
 				338E8C802BA0C190005166F9 /* MatchApp.swift */,
+				335A4A892BAB49DE001AD109 /* WinView.swift */,
 				338E8C822BA0C190005166F9 /* ContentView.swift */,
 				33ACFBF22BA9EBD5006DCC7B /* Silkscreen-Bold.ttf */,
 				33ACFBF32BA9EBD5006DCC7B /* Silkscreen-Regular.ttf */,
+				335A4A8B2BAB4C99001AD109 /* CardView.swift */,
 				338E8C842BA0C192005166F9 /* Assets.xcassets */,
+				335A4A872BAB3F44001AD109 /* GameView.swift */,
 				338E8C862BA0C192005166F9 /* Preview Content */,
 			);
 			path = Match;
@@ -148,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				338E8C832BA0C190005166F9 /* ContentView.swift in Sources */,
+				335A4A8A2BAB49DE001AD109 /* WinView.swift in Sources */,
+				335A4A882BAB3F44001AD109 /* GameView.swift in Sources */,
 				338E8C812BA0C190005166F9 /* MatchApp.swift in Sources */,
+				335A4A8C2BAB4C99001AD109 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
